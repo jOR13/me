@@ -21,7 +21,7 @@ function App() {
       about: {
         title: "About Me",
         intro1: "Full Stack Developer with 5+ years of proven expertise in building high-impact web and mobile applications. I specialize in creating intuitive user experiences backed by robust, scalable architectures. My approach combines technical excellence with a deep understanding of business needs, ensuring every solution I build drives real value.",
-        intro2: "Throughout my career, I've worked across diverse industries—from fintech and enterprise platforms to e-commerce and food safety—architecting solutions that solve complex challenges. I've built payment systems, document processing platforms, authentication systems, and real-time inventory management tools. I thrive in collaborative remote environments and believe that great software comes from continuous learning, clean code practices, and genuine passion for the craft.",
+        intro2: "Throughout my career, I've worked across diverse industries from fintech and enterprise platforms to e-commerce and food safety architecting solutions that solve complex challenges. I've built payment systems, document processing platforms, authentication systems, and real-time inventory management tools. I thrive in collaborative remote environments and believe that great software comes from continuous learning, clean code practices, and genuine passion for the craft.",
         experience: "Work Experience",
         present: "Present",
         education: "Education",
@@ -47,6 +47,10 @@ function App() {
           {
             title: "Lenia",
             description: "Business SaaS system for quote management. Allows managing products, services, and clients, generating professional PDF documents. Free platform with 4.8 stars and 127+ reviews."
+          },
+          {
+            title: "Teregalo",
+            description: "Web app for organizing digital gift exchanges (secret santa). Automatic drawing system with WhatsApp invitations, wish lists, and participant management. Features festive animations and multi-language support."
           },
           {
             title: "PetFlip",
@@ -116,6 +120,10 @@ function App() {
             description: "Sistema SaaS empresarial para gestión de cotizaciones. Permite administrar productos, servicios y clientes, generando documentos PDF profesionales. Plataforma gratuita con 4.8 estrellas y 127+ reseñas."
           },
           {
+            title: "Teregalo",
+            description: "Aplicación web para organizar intercambios de regalos digitales (amigo secreto). Sistema de sorteo automático con invitaciones por WhatsApp, listas de deseos y gestión de participantes. Incluye animaciones festivas y soporte multiidioma."
+          },
+          {
             title: "PetFlip",
             description: "Plataforma interactiva de entretenimiento donde los usuarios pueden jugar y ganar premios con sus mascotas favoritas. Combina elementos de juego con un sistema de recompensas centrado en mascotas."
           },
@@ -162,6 +170,14 @@ function App() {
     },
     {
       id: 3,
+      title: "Teregalo",
+      description: "Aplicación web para organizar intercambios de regalos digitales (amigo secreto). Sistema de sorteo automático con invitaciones por WhatsApp, listas de deseos y gestión de participantes. Incluye animaciones festivas y soporte multiidioma.",
+      link: "https://teregalo.online",
+      image: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=800&h=500&fit=crop&q=80",
+      tags: ["Next.js", "Firebase", "TypeScript", "i18n"]
+    },
+    {
+      id: 4,
       title: "PetFlip",
       description: "Plataforma interactiva de entretenimiento donde los usuarios pueden jugar y ganar premios con sus mascotas favoritas. Combina elementos de juego con un sistema de recompensas centrado en mascotas.",
       link: "https://petflip.mx",
@@ -169,7 +185,7 @@ function App() {
       tags: ["React", "Gaming", "Web App"]
     },
     {
-      id: 4,
+      id: 5,
       title: "IQKitchen",
       description: "App HACCP en React Native (Expo) para garantizar la seguridad alimentaria. Desarrollé funcionalidades que mejoraron la eficiencia de procesos en un 60%.",
       link: "#",
@@ -177,7 +193,7 @@ function App() {
       tags: ["React Native", "Expo", "Food Safety", "Mobile"]
     },
     {
-      id: 5,
+      id: 6,
       title: "PideDirecto",
       description: "Aplicación web de entrega de comida desarrollada con React. Mejoré la experiencia de usuario, logrando un aumento del 15% en tasas de finalización de pedidos.",
       link: "#",
@@ -185,7 +201,7 @@ function App() {
       tags: ["React", "Food Delivery", "E-commerce"]
     },
     {
-      id: 6,
+      id: 7,
       title: "Calistenia Juárez",
       description: "Directorio web de parques públicos de calistenia en Ciudad Juárez. Facilita a los residentes encontrar espacios gratuitos para entrenamiento con peso corporal.",
       link: "https://calisteniajrz.netlify.app",
@@ -213,7 +229,7 @@ function App() {
                 onClick={() => setLanguage(language === 'en' ? 'es' : 'en')}
                 className="px-4 py-2 rounded-xl bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-bold hover:from-purple-600 hover:via-pink-600 hover:to-orange-600 transition shadow-lg hover:shadow-2xl"
               >
-                {language === 'en' ? '🇪🇸 ES' : '🇺🇸 EN'}
+                {language === 'en' ? '🇲🇽 ES' : '🇺🇸 EN'}
               </button>
             </div>
           </div>
