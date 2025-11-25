@@ -292,10 +292,15 @@ function App() {
               <div className="space-y-4">
                 <div className="border-l-4 border-blue-500 pl-4">
                   <h5 className="font-bold text-gray-900">Modyo</h5>
-                  <p className="text-sm text-gray-600">Full Stack RoR Developer | 2021 - {t.about.present}</p>
+                  <p className="text-sm text-gray-600">Full Stack RoR Developer | Sep 2024 - {t.about.present}</p>
                   <p className="text-xs text-gray-500 mt-1">Project: DialogEdu</p>
                 </div>
                 <div className="border-l-4 border-indigo-500 pl-4">
+                  <h5 className="font-bold text-gray-900">Mind (micheldada/arkusnexus)</h5>
+                  <p className="text-sm text-gray-600">Ruby on Rails Developer | 2021 - Sep 2024</p>
+                  <p className="text-xs text-gray-500 mt-1">Projects: Notary, Tigo Money, Fixle</p>
+                </div>
+                <div className="border-l-4 border-purple-500 pl-4">
                   <h5 className="font-bold text-gray-900">Hipergas</h5>
                   <p className="text-sm text-gray-600">Software Developer | 2019 - 2021</p>
                 </div>
