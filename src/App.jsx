@@ -67,6 +67,10 @@ function App() {
           {
             title: "Calistenia Juárez",
             description: "Web directory of public calisthenics parks in Ciudad Juárez. Makes it easy for residents to find free spaces for bodyweight training."
+          },
+          {
+            title: "Juárez Survivor",
+            description: "Mobile arcade game collection inspired by daily life in Ciudad Juárez. Includes 5 mini-games: runner, match-3, tower stacker, burrito ninja and cockroach smasher. Available on the App Store."
           }
         ]
       },
@@ -138,6 +142,10 @@ function App() {
           {
             title: "Calistenia Juárez",
             description: "Directorio web de parques públicos de calistenia en Ciudad Juárez. Facilita a los residentes encontrar espacios gratuitos para entrenamiento con peso corporal."
+          },
+          {
+            title: "Juárez Survivor",
+            description: "Colección de mini juegos arcade para móvil inspirados en la vida cotidiana de Ciudad Juárez. Incluye 5 juegos: runner, match-3, torre de bloques, burrito ninja y aplasta cucarachas. Disponible en el App Store."
           }
         ]
       },
@@ -207,6 +215,14 @@ function App() {
       link: "https://calisteniajrz.netlify.app",
       image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=800&h=500&fit=crop&q=80",
       tags: ["Web", "Directory", "Fitness"]
+    },
+    {
+      id: 8,
+      title: "Juárez Survivor",
+      description: "Colección de mini juegos arcade para móvil inspirados en la vida cotidiana de Ciudad Juárez. Incluye 5 juegos: runner, match-3, torre de bloques, burrito ninja y aplasta cucarachas. Disponible en el App Store.",
+      link: "https://apps.apple.com/app/juarez-survivor/id6758858775",
+      image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=500&fit=crop&q=80",
+      tags: ["React Native", "Expo", "Mobile", "Game", "iOS"]
     }
   ]
 
@@ -257,7 +273,7 @@ function App() {
               {t.hero.viewProjects}
               <span className="inline-block ml-2 group-hover:translate-x-1 transition">→</span>
             </a>
-            <a href="/cv.pdf" download className="px-8 py-4 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold hover:from-cyan-600 hover:to-blue-700 transition shadow-xl hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105">
+            <a href="./cv.pdf" download className="px-8 py-4 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold hover:from-cyan-600 hover:to-blue-700 transition shadow-xl hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105">
               📄 {t.hero.downloadCV}
             </a>
             <a href="#contact" className="px-8 py-4 rounded-xl border-3 border-purple-500 bg-purple-50 text-purple-700 font-bold hover:bg-purple-100 transition shadow-xl hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105">
